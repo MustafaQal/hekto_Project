@@ -1,0 +1,51 @@
+body{
+    font-family: var(--mainfont);
+}
+.header{
+    padding: 56px 0;
+}
+
+.header ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap:36px;
+}
+
+.header .bar{
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .nav_list, .search{
+        display: none;
+    }
+
+    .header .bar{
+        display: block;
+    }
+    
+}
+
+.nav_list a{
+    color: #0D0E43;
+}
+
+.nav_list .active a{
+    color: #FB2E86;
+}
+
+.search form{
+    border: 1px solid #E7E6EF;
+}
+.search form input{
+    border: none;
+    outline: none;
+    width: 250px;
+    padding: 0 20px;
+}
+.search form button{
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    padding: 8px 13px;
+}
