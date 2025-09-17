@@ -41,10 +41,27 @@ ul{
     align-items: center;
 }
 
-
-.container{
-    width:calc(100% - 320px);
+.container {
+    width: calc(100% - 320px);
     margin: auto;
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: calc(100% - 100px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: calc(100% - 40px);
+    }
 }
 
 .row2{
@@ -56,11 +73,6 @@ ul{
 
 .margin-30{
     margin: 30px;
-}
-
-.container{
-    width:calc(100% - 320px);
-    margin: auto;
 }
 
 .d-flex{
@@ -97,3 +109,6 @@ ul{
 .gap-50{
     gap: 50px;
 }
+
+
+
