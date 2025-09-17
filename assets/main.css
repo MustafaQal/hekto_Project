@@ -16,7 +16,7 @@ body{
 }
 
 @media screen and (max-width:1200px) {
-    .nav_list, .search{
+   .nav_list, .header .search{
         display: none;
     }
 
@@ -48,4 +48,39 @@ body{
     outline: none;
     background-color: var(--primary-color);
     padding: 8px 13px;
+
 }
+
+}
+
+.text-white{
+    color: white;
+}
+
+/* Start Footer Section */
+.footer{
+    background-color: #EEEFFB;
+}
+
+.footer .left{
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.footer .left h2, address{
+    color: #8A8FB9;
+}
+
+.footer .right{
+    width: 60%;
+}
+
+.footer .right a{
+    color: #8A8FB9;
+}
+.footer .right h2{
+    color: #000;
+}
+/* End Footer Section */
+
