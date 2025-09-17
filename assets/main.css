@@ -56,6 +56,27 @@ body{
     color: white;
 }
 
+/* ============  Start NewsLater Section ============*/ 
+.newslater{
+    background-image: url('./img/public/Newsletter.webp');
+    padding: 175px 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.newslater h2{
+    color: #151875;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.shop-btn{
+    transition: all .5s;
+}
+.shop-btn:hover {
+    background-color: #3236a0;
+}
+
+
 /* ============  Start Clients Section ============*/ 
 .clients{
     padding: 50px 0;
@@ -67,7 +88,7 @@ body{
 }
 
 .clients .logo{
-    width: calc((100% - 60px) / 4);
+    width: calc((100% - 60px) / 5 );
 }
 
 .clients img{
@@ -77,13 +98,13 @@ body{
 
 @media screen and (max-width: 992px) {
     .clients .logo {
-        width: calc((100% - 30px) / 3);
+        width: calc((100% - 30px) / 3 );
     }
 }
 
 @media screen and (max-width: 576px) {
         .clients .logo {
-        width: calc((100% - 15px) / 2);
+        width: calc((100% - 15px) / 2 );
     }
 }
 /* ============ End Clients Section ============ */
