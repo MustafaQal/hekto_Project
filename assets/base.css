@@ -119,3 +119,8 @@ ul{
 .text-right{
     text-align: right;
 }
+
+.text-chair{
+    color: #151875;
+    transition: all .6s;
+}

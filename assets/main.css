@@ -63,8 +63,6 @@ body{
     margin-bottom: 30px;
     font-size: 42px;
     color: #1A0B5B;
-
-
 }
 .featured-products .row{
     justify-content: flex-start;
@@ -89,7 +87,23 @@ body{
     height: 200px;
     object-fit: contain;
 }
+.Product .product-details{
+    transition: all .6s;    
+}
+.Product {
+    position: relative;
+}
+.Product .sale-img{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 80px;
+    height: 60px;
+}
 
+.Product:hover .product-details{
+    background-color: #2F1AC4 ;
+}
 
 .product-details {
 display: flex;
@@ -98,6 +112,41 @@ gap: 15px;
 padding: 10px;
 }
 
+.product-details h3{
+    color: var(--primary-color);
+    transition: all .6s;
+}
+.Product:hover .product-details h3{
+    color: #FFFFFF ;
+}
+.color {
+     width: 20px;
+     height: 6px;
+     border-radius: 10px;
+     outline: none;
+     border: none;
+     cursor: pointer;
+}
+.Product:hover .product-details .text-chair{
+    color: #FFFFFF ;
+}
+.color-1{
+    background-color: #05E6B7 ;
+}
+.color-2{
+    background-color: var(--primary-color);
+}
+.color-3{
+    background-color: #00009D ;
+    transition: all .6s;
+}
+
+.Product:hover .product-details .color-3{
+    background-color: #FFEAC1 ;
+}
+.price{
+    padding-bottom: 15px;
+}
 
 /* ============  Start NewsLater Section ============*/ 
 .newslater{
