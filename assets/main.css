@@ -55,6 +55,53 @@ body{
 .text-white{
     color: white;
 }
+/* ============  Start Hero  Section ============*/ 
+.hero{
+    background-color: #F2F0FF;
+    position: relative;
+    padding: 36px;
+    margin-bottom: 130px;
+}
+.hero .lamp-img{
+width: 10%;
+}
+.lamp-img img{
+    position: absolute;
+    top: 0;
+    right:80%;
+    width: 250px;
+    height: 250px;
+}
+
+.hero .hero-content{
+   display: flex;
+   flex-direction: column;
+   flex: 1 0 45%;
+}
+.hero .content{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.hero .hero-content span{
+    color: var(--primary-color);
+}
+
+.hero .content p{
+    color: #8A8FB9;
+}
+
+.hero-img {
+    display: flex;
+    flex: 1 0 35%;
+}
+
+.hero .hero-img img{
+    width: 100%;
+}
+
+
 /* ============  Start Featured Products Section ============*/ 
 .featured-products{
     padding: 50px 0;

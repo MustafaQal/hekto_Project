@@ -16,7 +16,7 @@ ul{
     --primary-color:#FB2E86;
     --mainfont:"Lato", sans-serif;
     --primary-color-g:#08D15F;
-
+    --black-text:#000000;
 }
 
 .mainbtn{
@@ -42,7 +42,7 @@ ul{
 }
 
 .container {
-    width: calc(100% - 320px);
+    width: calc(100% - 375px);
     margin: auto;
 }
 
@@ -77,6 +77,7 @@ ul{
 
 .d-flex{
     display: flex;
+    align-items: flex-start;
 }
 
 .d-flex-column{
@@ -106,6 +107,9 @@ ul{
 .gap-30{
     gap: 30px;
 }
+.gap-35{
+    gap: 35px;
+}
 .gap-50{
     gap: 50px;
 }
@@ -123,4 +127,25 @@ ul{
 .text-chair{
     color: #151875;
     transition: all .6s;
+}
+
+.text-16 {
+    font-size: 16px;
+}
+.text-50 {
+    font-size: 50px;
+}
+.text-30 {
+    font-size: 30px;
+}
+.text-17 {
+    font-size: 17px;
+}
+
+.text-josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 580;
+  font-style: normal;
+  line-height: 1.5;
 }
