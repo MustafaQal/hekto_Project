@@ -17,6 +17,7 @@ ul{
     --mainfont:"Lato", sans-serif;
     --primary-color-g:#08D15F;
     --black-text:#000000;
+    --color-151875: #151875; 
 }
 
 .mainbtn{
@@ -139,6 +140,9 @@ ul{
     text-align: right;
 }
 
+.text-line-through{
+  text-decoration: line-through;
+}
 .text-chair{
     color: #151875;
     transition: all .6s;
@@ -165,3 +169,15 @@ ul{
   font-style: normal;
   line-height: 1.5;
 }
+
+.text-josefin-12 {
+  font-family: "Josefin Sans", sans-serif;
+   font-size: 12px;
+}
+
+.text-josefin-16-price {
+  font-family: "Josefin Sans", sans-serif;
+   font-size: 16px;
+}
+
+

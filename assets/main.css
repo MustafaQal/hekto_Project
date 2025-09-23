@@ -142,19 +142,6 @@ width: 10%;
     height: 200px;
     object-fit: contain;
 }
-.Product .product-details{
-    transition: all .6s;    
-}
-.Product {
-    position: relative;
-}
-.Product .sale-img{
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 80px;
-    height: 60px;
-}
 
 .Product:hover .product-details{
     background-color: #2F1AC4 ;
@@ -203,7 +190,7 @@ padding: 10px;
     padding-bottom: 15px;
 }
 
-.icons{
+.featured-products .icons{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -214,11 +201,112 @@ padding: 10px;
 }
 .Product .img-details i{
     visibility: hidden;
-    color: #0e78e2;
-
 }
 
 .Product:hover .img-details i{
+    visibility: visible;
+    color: #0e78e2;
+}
+
+/* ============  Start leatest Products Section ============*/ 
+.leatest-products .row{
+    margin: 58px 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100px;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.leatest-products .leatest-product .img img{
+    width: 470px;
+    height: 420px;
+     object-fit: contain;
+}
+
+.leatest-products h2{
+    margin-bottom: 30px;
+    color: #1A0B5B;
+}
+.leatest-products ul{
+    justify-content: center;
+}
+.leatest-products ul li a{
+   color: var(--color-151875);
+   font-size: 20px;
+   transition: all .4s;
+}
+
+.leatest-products ul li a:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.leatest-product img {
+    background-color: #F7F7F7;
+    padding: 33px 64px 17px 74px;
+}
+
+.leatest-product img:hover {
+    background-color: white;
+}
+.leatest-product .img{
+    position: relative;
+}
+.leatest-products .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+    background-color: #f5f5f7;
+    position: absolute;
+    left: 24px;
+    bottom: 38px;
+}
+.leatest-product .img i{
+    visibility: hidden;
+}
+
+.leatest-product:hover .img i{
+    visibility: visible;
+    color: #0e78e2;
+}
+
+.leatest-product .Hand-Craft-name{
+  color: var(--color-151875);
+  display: inline-block;           
+  border-bottom: 2px solid #EEEFFB;
+  padding-bottom: 4px;   
+}
+.leatest-product .new-price{
+    color: var(--color-151875);
+}
+.leatest-product .old-price{
+    color: #FB2448;
+}
+
+.leatest-products .leatest-product .img {
+    position: relative;
+}
+
+.sale-img {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background:#3F509E;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 50%;
+  color: white;
+}
+
+.leatest-product .img .sale-img{
+    visibility: hidden;
+}
+
+.leatest-product:hover .img .sale-img{
     visibility: visible;
 }
 
@@ -232,7 +320,7 @@ padding: 10px;
 }
 
 .newslater h2{
-    color: #151875;
+    color: var(--color-151875);
     margin-bottom: 50px;
     font-size: 35px;
 }
