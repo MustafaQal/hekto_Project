@@ -376,6 +376,18 @@ padding: 10px;
     display: flex;
     flex: 1 0 35%;
     align-items: flex-start ;
+    position: relative;
+}
+.trending_2 .trending_off_1 img{
+    position: absolute;
+    right: 3%;
+    bottom: 4%;
+}
+
+.trending_2 .trending_off_2 img{
+    position: absolute;
+    right: 3%;
+    bottom: 4%;
 }
 
 .trending_2 .trending_off_2 {
@@ -384,6 +396,7 @@ padding: 10px;
     display: flex;
     flex: 1 0 35%;
     align-items: flex-start ;
+        position: relative;
 }
 .trending_2 .trending_Ex_Seat {
     width: 100%;

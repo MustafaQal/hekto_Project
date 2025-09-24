@@ -150,14 +150,27 @@ ul{
 .text-line-through{
   text-decoration: line-through;
 }
+.text-underline{
+  text-decoration: underline;
+}
 .text-chair{
     color: #151875;
     transition: all .6s;
     text-align: center;
 }
 
+.text-word-spacing-4{
+    word-spacing: 6px;
+}
+
 .text-16 {
     font-size: 16px;
+}
+.text-20 {
+    font-size: 20px;
+}
+.text-25 {
+    font-size: 25px;
 }
 .text-50 {
     font-size: 50px;
@@ -169,6 +182,16 @@ ul{
     font-size: 17px;
 }
 
+.text-josefin-25{
+  font-family: "Josefin Sans", sans-serif;
+  font-style: bold;
+    font-size: 25px;
+}
+.text-josefin-50{
+  font-family: "Josefin Sans", sans-serif;
+  font-style: bold;
+    font-size: 50px;
+}
 .text-josefin-sans {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
@@ -187,6 +210,13 @@ ul{
    font-size: 16px;
 }
 
+.text-color-151875{
+    color: var(--color-151875);
+}
+
+.text-color-primary{
+     color: var(--primary-color);
+}
 /* width */
 
 .w-100 {
@@ -228,6 +258,30 @@ ul{
 
 .p-30 {
     padding: 30px;
+}
+
+.p-left-5 {
+    padding-left: 5px;
+}
+
+.p-left-10 {
+    padding-left: 10px;
+}
+
+.p-left-15 {
+    padding-left: 15px;
+}
+
+.p-left-20 {
+    padding-left: 20px;
+}
+
+.p-left-25 {
+    padding-left: 25px;
+}
+
+.p-left-30 {
+    padding-left: 30px;
 }
 
 .p-top-5 {
