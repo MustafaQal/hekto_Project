@@ -310,6 +310,10 @@ padding: 10px;
 }
 
 /* ============  Start trending Products Section ============*/ 
+.trending_products{
+    background-color: #eaebee;
+    padding: 30px;
+}
 .trending_products h2{
     color: var(--color-151875);
 }
@@ -432,6 +436,55 @@ padding: 10px;
 .trending_2 span{
     color: var(--color-151875);
 }
+
+/* ============  Start Top-Categories Section ============*/ 
+
+.top-categories h2{
+    color: var(--color-151875);
+}
+.top-categories .top-categorie{
+    flex: 1 0 270px;
+    max-width: 270px;
+    padding: 30px;
+}
+
+.top-categories .img{
+  position: relative;
+  width:270px;
+  height:270px;
+  background-color: #f6f7fb;
+  border-radius: 50%;
+  box-shadow: 0px 8px 40px #31208a0d;
+  
+}
+.top-categories .img img{
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  top: 25%;
+  object-fit: contain;
+  
+}
+
+.top-categories .top-categorie a{
+     visibility: hidden;
+}
+
+.top-categories .top-categorie:hover a{
+      visibility: visible;
+    position: absolute;
+    bottom: 8%;
+}
+
+
+.top-categories .top-info{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
 
 
 /* ============  Start NewsLater Section ============*/ 
