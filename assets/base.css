@@ -19,6 +19,8 @@ ul{
     --black-text:#000000;
     --color-151875: #151875; 
     --bg-F7F7F7:#F7F7F7;
+    --bg-white: #FFFFFF;
+    --text-color-b6b8c9:#b6b8c9;
 }
 
 .mainbtn{
@@ -200,7 +202,11 @@ ul{
   line-height: 1.5;
     color: var(--color-151875);
 }
-
+.text-josefin-22 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  color: var(--color-151875);
+}
 .text-josefin-12 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 12px;
@@ -219,6 +225,9 @@ ul{
 
 .text-color-151875{
     color: var(--color-151875);
+}
+.text-color-b6b8c9{
+    color: var(--text-color-b6b8c9);
 }
 
 .text-color-primary{
@@ -292,6 +301,34 @@ ul{
 
 .p-left-30 {
     padding-left: 30px;
+}
+
+.p-right-5 {
+    padding-right: 5px;
+}
+
+.p-right-10 {
+    padding-right: 10px;
+}
+
+.p-right-15 {
+    padding-right: 15px;
+}
+
+.p-right-20 {
+    padding-right: 20px;
+}
+
+.p-right-25 {
+    padding-right: 25px;
+}
+
+.p-right-30 {
+    padding-right: 30px;
+}
+.pad-l-r-20 {
+    padding-left: 20px;
+    padding-right: 30px;
 }
 
 .p-top-5 {
