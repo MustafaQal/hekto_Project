@@ -206,21 +206,25 @@ ul{
   font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
   color: var(--color-151875);
+  line-height: 1.5;
 }
 .text-josefin-12 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 12px;
   color: var(--color-151875);
+  line-height: 1.5;
 }
 .text-josefin-16 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   color: var(--color-151875);
+  line-height: 1.5;
 }
 
 .text-josefin-16-price {
   font-family: "Josefin Sans", sans-serif;
    font-size: 16px;
+   line-height: 1.5;
 }
 
 .text-color-151875{
@@ -228,6 +232,7 @@ ul{
 }
 .text-color-b6b8c9{
     color: var(--text-color-b6b8c9);
+    line-height: 1.5;
 }
 
 .text-color-primary{

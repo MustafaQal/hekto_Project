@@ -325,8 +325,9 @@ padding: 10px;
 }
 
 .Shopex-Offer .shopex img{
-    width: 25%;
-
+  width: 25%;
+  height: 25%;
+  object-fit: contain;
 }
 /*=======================================================================*/
 
@@ -587,6 +588,56 @@ padding: 10px;
 .footer .right h2{
     color: #000;
 }
+/*=======================================================================*/
+/* ============  Start Leatest Blog Section ============*/ 
+
+.Leatest-Blog .blog{
+    width: 370px;
+    height: 500px;
+    background-color:var(--bg-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 20px;
+    flex: 1 0 30%;
+    box-shadow: 0px 8px 40px #31208a0d;
+}
+
+.Leatest-Blog .blog .blog-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px ;
+}
+
+.Shopex-Offer .shopex img{
+    width: 100%;
+
+}
+.Leatest-Blog .blog .icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.Leatest-Blog .blog .icones .fa-solid{
+    color: red;
+}
+
+.Leatest-Blog .blog .icones .fa-calendar-days{
+    color: orange;
+}
+
+/*=======================================================================*/
+
+
+
+
 /* End Footer Section */
 
 .footer-item {
